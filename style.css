@@ -27,15 +27,20 @@
     height: 40px;
     background-color: blue;
 }
-/* .student{
+.student{
     width: 40px;
     height: 40px;
+<<<<<<< HEAD
     background-color: brown;
 <<<<<<< HEAD
 }
 =======
 } */
 >>>>>>> master
+=======
+    background-color:: brown;
+}
+>>>>>>> parent of b40e131... student_comment_out
 .officeStuff{
     width: 40px;
     height: 40px;
