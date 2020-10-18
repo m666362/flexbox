@@ -22,16 +22,18 @@ body{
 } */
 .parent{
     height: 100px;
-    min-width: 100px;
+    width: 320px;
 
-    flex-grow: 1;
 }
 .one{
     background: coral;
+    flex-shrink: 1;
 }
 .two{
     background: crimson;
+    flex-shrink: 2;
 }
 .three{
     background: darkolivegreen;
+    flex-shrink: 3;
 }
