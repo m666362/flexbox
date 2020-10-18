@@ -1,5 +1,35 @@
 *{
     margin: 0;
-    padding: 0;
-    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: #eee;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+    /* display: flex; */
+    background: #ffffff;
+    float: left;
+}
+.flex-container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.parent{
+    height: 100px;
+    min-width: 100px;
+}
+.one{
+    background: coral;
+}
+.two{
+    background: crimson;
+}
+.three{
+    background: darkolivegreen;
 }
