@@ -11,15 +11,15 @@ body{
     margin: 0 auto;
 }
 .flex-container{
-    /* display: flex; */
+    display: flex;
     background: #ffffff;
-    float: left;
+    /* float: left; */
 }
-.flex-container::after{
+/* .flex-container::after{
     content: "";
     display: block;
     clear: both;
-}
+} */
 .parent{
     height: 100px;
     min-width: 100px;
