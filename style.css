@@ -16,15 +16,15 @@ body{
     flex-wrap: wrap;
     /* float: left; */
 }
-/* .flex-container::after{
+/* For Float
+.flex-container::after{
     content: "";
     display: block;
     clear: both;
 } */
 .parent{
     height: 100px;
-    min-width: 300px;
-    flex-grow: 1;
+    min-width: 200px;
 }
 .one{
     background: coral;
@@ -34,4 +34,34 @@ body{
 }
 .three{
     background: darkolivegreen;
+}
+/* For nav menu */
+
+nav{
+    background: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+nav a:hover{
+    background-color: #555;
+}
+/*  */
+/* now media */
+@media screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav li{
+        /* flex: 1 1 0; */
+    }
 }
